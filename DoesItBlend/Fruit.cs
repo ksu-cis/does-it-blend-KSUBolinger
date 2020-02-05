@@ -9,5 +9,9 @@ namespace DoesItBlend
     /// </summary>
     public abstract class Fruit
     {
+        public virtual string Blend()
+        {
+            return "goop";
+        }
     }
 }

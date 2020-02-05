@@ -7,12 +7,12 @@ namespace DoesItBlend
     /// <summary>
     /// A class representing a bananna
     /// </summary>
-    public class Banana : Fruit
+    public class Banana : iBlendable
     {
         /// Blends the banana
         /// </summary>
         /// <returns>The result of blending the banana</returns>
-        public string Blend()
+        public  string Blend()
         {
             return "yellow mush";
         }
